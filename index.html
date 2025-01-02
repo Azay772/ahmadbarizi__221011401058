@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website Using HTML & CSS | Codehal</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="logo">portofolio</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#sertifikat">Sertifikat</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Animation -->
+    <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-info">
+            <h1>AHMAD BARIZI</h1>
+            <h2>I am a university student</h2>
+            <p>I am an informatics engineering student at Pamulang University with a strong interest in frontend development. I focus on academic and practical skills, actively participating in various activities to support my professional growth.</p>
+            <div class="btn-sci">
+                <a href="#" class="btn">sosial media</a>
+                <div class="sci">
+                    <!-- Tambahkan link ke akun sosial media Anda -->
+                    <a href="https://www.instagram.com/ahmadbarizii/" target="_blank"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://www.facebook.com/ahmad.barizi.16?mibextid=ZbWKwL" target="_blank"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://github.com/Azay772" target="_blank"><i class="bx bxl-github"></i></a>
+                    <a href="https://www.google.co.id/maps/place/Maja,+Lebak+Regency,+Banten/@-6.3711248,106.3164216,13z/data=!3m1!4b1!4m6!3m5!1s0x2e420e23511c9985:0xd11973f0d80edd66!8m2!3d-6.366236!4d106.3480831!16s%2Fg%2F120lqmhf?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><i class="bx bxl-google maps"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="azay.jpeg" alt="Profile Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="project" class="project">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project-item">
+                <img src="login.JPG" alt="Project 1">
+                <h3>Form Login</h3>
+                <p></p>
+                <a href="form-login.html" target="_blank">View Project</a>
+            </div>
+            <div class="project-item">
+                <img src="calculator.JPG" alt="Project 2">
+                <h3>Kalkulator</h3>
+                <p></p>
+                <a href="calculator.html" target="_blank">View Project</a>
+            </div>
+            <div class="project-item">
+                <img src="snakegame.JPG" alt="Project 3">
+                <h3>snake game</h3>
+                <p></p>
+                <a href="snakegame.html" target="_blank">View Project</a>
+            </div>
+            <div class="project-item">
+                <img src="diagram.jpeg" alt="Project 4">
+                <h3>diagram</h3>
+                <p></p>
+                <a href="grafik.html" target="_blank">View Project</a>
+            </div>
+            <div class="project-item">
+                <img src="dashboard.jpg" alt="Project 5">
+                <h3>dashboard karyawan</h3>
+                <p></p>
+                <a href="dasbhoard.html" target="_blank">View Project</a>
+            </div>
+        </div>
+
+    </section>
+
+  <!-- Sertifikat Section -->
+<section id="sertifikat" class="sertifikat">
+    <h2>My Certificates</h2>
+    <div class="sertifikat-container">
+        <div class="sertifikat-item">
+            <a href="https://www.sololearn.com/certificates/CC-2P4AOXED" target="_blank">
+                <img src="sertifikat html.jpg" alt="Sertifikat 1">
+            </a>
+            <p>Sertifikat 1</p>
+        </div>
+        <div class="sertifikat-item">
+            <a href="https://www.sololearn.com/certificates/CC-N7KCTRSK" target="_blank">
+                <img src="sertifikat css.jpg" alt="Sertifikat 2">
+            </a>
+            <p>Sertifikat 2</p>
+        </div>
+        <div class="sertifikat-item">
+            <a href="https://www.sololearn.com/certificates/CC-XODPU8RA" target="_blank">
+                <img src="sertifikat javascript.jpg" alt="Sertifikat 3">
+            </a>
+            <p>Sertifikat 3</p>
+        </div>
+        <div class="sertifikat-item">
+            <a href="https://www.sololearn.com/certificates/CC-VQHIB0PB" target="_blank">
+                <img src="sertifikatjsintermediate.jpg" alt="Sertifikat 4">
+            </a>
+            <p>Sertifikat 4</p>
+        </div>
+    </div>
+</section>
+<section id="contact" class="contact">
+    <h2>Google Maps</h2>
+    <div class="map-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.856984539285!2d106.31642161532799!3d-6.366236095389803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e420e23511c9985%3A0xd11973f0d80edd66!2sMaja%2C%20Lebak%20Regency%2C%20Banten!5e0!3m2!1sen!2sid!4v1694683824381!5m2!1sen!2sid" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p><strong>Email:</strong> <a href="mailto:example@example.com">Ahmadbarizi464@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:083182705795">083182705795</a></p>
+    </div>
+</section>
+
+</section>
+
+
+</body>
+</html>
